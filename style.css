@@ -15,7 +15,7 @@
   --gradient-soft: linear-gradient(135deg, #ffffff, #101b2c);
 }
 
-/* BACKGROUND LAYERS FOR SMOOTH THEME SWITCH */
+/* /* BACKGROUND LAYERS FOR SMOOTH THEME SWITCH */
 body::before,
 body::after {
   content: "";
@@ -23,7 +23,7 @@ body::after {
   inset: 0;
   z-index: -1;
   transition: opacity 0.8s ease;
-}
+} */
 
 /* DARK BACKGROUND */
 /* body::before {
@@ -37,7 +37,7 @@ body::after {
   opacity: 0;
 }
 
-/* WHEN LIGHT MODE IS ACTIVE */
+/* /* WHEN LIGHT MODE IS ACTIVE */
 body.light::before {
   opacity: 0;
 }
@@ -60,7 +60,7 @@ body.light {
 
   --gradient-main: linear-gradient(135deg, var(--blue), var(--indigo), var(--violet));
   --gradient-soft: linear-gradient(135deg, #032045, #2a0262);
-}
+} */
 
 /* GLOBAL RESET */
 * {
@@ -526,5 +526,4 @@ body {
     );
     z-index: -1;
     backdrop-filter: blur(3px);
-
 }
