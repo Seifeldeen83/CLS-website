@@ -525,4 +525,6 @@ body {
         rgba(0, 120, 255, 0.3)
     );
     z-index: -1;
+    backdrop-filter: blur(3px);
+
 }
