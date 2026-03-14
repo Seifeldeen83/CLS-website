@@ -26,10 +26,10 @@ body::after {
 }
 
 /* DARK BACKGROUND */
-body::before {
+/* body::before {
   background: radial-gradient(circle at top, #0d1330, #070b1a);
   opacity: 1;
-}
+} */
 
 /* LIGHT BACKGROUND */
 body::after {
@@ -526,5 +526,4 @@ body {
     );
     z-index: -1;
     backdrop-filter: blur(3px);
-
 }
